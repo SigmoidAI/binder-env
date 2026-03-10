@@ -4,5 +4,5 @@ set -euo pipefail
 # Register a predictable kernel name for notebooks.
 python -m ipykernel install --user --name=binder-env --display-name "Python (binder-env)"
 
-# Enable nbgitpuller serverextension in the Binder environment.
-jupyter serverextension enable --py nbgitpuller --sys-prefix
+## Enable nbgitpuller serverextension in the Binder environment.
+#jupyter serverextension enable --py nbgitpuller --sys-prefix
